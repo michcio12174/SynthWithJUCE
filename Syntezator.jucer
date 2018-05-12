@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="CvpRgg" name="Syntezator" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Syntezator" includeBinaryInAppConfig="1"
+              cppLanguageStandard="14" companyCopyright="" jucerVersion="5.3.2">
+  <MAINGROUP id="UhrrOn" name="Syntezator">
+    <GROUP id="{79C32B1C-B8B3-BFB3-510C-B933959FD3CB}" name="Source">
+      <GROUP id="{8E62A6E3-73C2-888D-ADEC-7DFC72FC986D}" name="Audio Player">
+        <FILE id="AVzqNS" name="audioPlayer.cpp" compile="1" resource="0" file="Source/audioPlayer.cpp"/>
+        <FILE id="dZ7FAH" name="audioPlayer.h" compile="0" resource="0" file="Source/audioPlayer.h"/>
+        <FILE id="fnpayo" name="audioPlayerUI.cpp" compile="1" resource="0"
+              file="Source/audioPlayerUI.cpp"/>
+        <FILE id="sWSepK" name="audioPlayerUI.h" compile="0" resource="0" file="Source/audioPlayerUI.h"/>
+      </GROUP>
+      <GROUP id="{552C5890-5AD1-B5AE-32F3-AE273CCFAC7C}" name="Spatial Sound">
+        <FILE id="ovLmSZ" name="spatialHelper.cpp" compile="1" resource="0"
+              file="Source/spatialHelper.cpp"/>
+        <FILE id="jIeKm8" name="spatialHelper.h" compile="0" resource="0" file="Source/spatialHelper.h"/>
+        <FILE id="UWKiJQ" name="point2D.cpp" compile="1" resource="0" file="Source/point2D.cpp"/>
+        <FILE id="PerqiB" name="point2D.h" compile="0" resource="0" file="Source/point2D.h"/>
+        <FILE id="C8kQK5" name="spatialUI.cpp" compile="1" resource="0" file="Source/spatialUI.cpp"/>
+        <FILE id="QzY3YY" name="spatialUI.h" compile="0" resource="0" file="Source/spatialUI.h"/>
+        <FILE id="taIrxH" name="spatialListener.cpp" compile="1" resource="0"
+              file="Source/spatialListener.cpp"/>
+        <FILE id="BKWyN6" name="spatialListener.h" compile="0" resource="0"
+              file="Source/spatialListener.h"/>
+        <FILE id="Q8YzRv" name="spatialSource.cpp" compile="1" resource="0"
+              file="Source/spatialSource.cpp"/>
+        <FILE id="CRSCVu" name="spatialSource.h" compile="0" resource="0" file="Source/spatialSource.h"/>
+      </GROUP>
+      <GROUP id="{0B6FF889-50A9-EBDC-CDDA-6A761706D87D}" name="Filters">
+        <GROUP id="{B58B472C-8FE8-5217-70B5-F4B55DFF7735}" name="EG">
+          <FILE id="V1v4ik" name="envelopeGenerator.cpp" compile="1" resource="0"
+                file="Source/envelopeGenerator.cpp"/>
+          <FILE id="ARguYI" name="envelopeGenerator.h" compile="0" resource="0"
+                file="Source/envelopeGenerator.h"/>
+        </GROUP>
+        <GROUP id="{1CFC6F02-F69D-57E2-4E20-623A7946603C}" name="lowpass">
+          <FILE id="aRE7Be" name="lowpassFilter.cpp" compile="1" resource="0"
+                file="Source/lowpassFilter.cpp"/>
+          <FILE id="Lz8nEh" name="lowpassFilter.h" compile="0" resource="0" file="Source/lowpassFilter.h"/>
+          <FILE id="NSihr8" name="lowpassUI.cpp" compile="1" resource="0" file="Source/lowpassUI.cpp"/>
+          <FILE id="Re2wXb" name="lowpassUI.h" compile="0" resource="0" file="Source/lowpassUI.h"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{BD7ED376-F847-4B19-9B77-6FC36EED1359}" name="Signal Generators">
+        <GROUP id="{43D52AE0-22A1-36D2-2561-1B67327CC706}" name="Implementations">
+          <FILE id="yaKndL" name="redNoise.cpp" compile="1" resource="0" file="Source/redNoise.cpp"/>
+          <FILE id="XHonqy" name="redNoise.h" compile="0" resource="0" file="Source/redNoise.h"/>
+          <FILE id="HBkf9J" name="triangularWave.cpp" compile="1" resource="0"
+                file="Source/triangularWave.cpp"/>
+          <FILE id="RAAlKT" name="triangularWave.h" compile="0" resource="0"
+                file="Source/triangularWave.h"/>
+          <FILE id="XV3q9j" name="rectangularWave.cpp" compile="1" resource="0"
+                file="Source/rectangularWave.cpp"/>
+          <FILE id="tza33U" name="rectangularWave.h" compile="0" resource="0"
+                file="Source/rectangularWave.h"/>
+          <FILE id="ohdpO5" name="sawtoothWave.cpp" compile="1" resource="0"
+                file="Source/sawtoothWave.cpp"/>
+          <FILE id="YEehX3" name="sawtoothWave.h" compile="0" resource="0" file="Source/sawtoothWave.h"/>
+          <FILE id="Jch3RE" name="sineWave.cpp" compile="1" resource="0" file="Source/sineWave.cpp"/>
+          <FILE id="PsW4hg" name="sineWave.h" compile="0" resource="0" file="Source/sineWave.h"/>
+          <FILE id="L5Vqo4" name="whiteNoise.h" compile="0" resource="0" file="Source/whiteNoise.h"/>
+          <FILE id="uiLbsY" name="whiteNoise.cpp" compile="1" resource="0" file="Source/whiteNoise.cpp"/>
+        </GROUP>
+        <FILE id="pbajpm" name="signalGeneratorUI.cpp" compile="1" resource="0"
+              file="Source/signalGeneratorUI.cpp"/>
+        <FILE id="uTwZq3" name="signalGeneratorUI.h" compile="0" resource="0"
+              file="Source/signalGeneratorUI.h"/>
+        <FILE id="kCWlnS" name="signalGenerator.cpp" compile="1" resource="0"
+              file="Source/signalGenerator.cpp"/>
+        <FILE id="j4bGia" name="signalGenerator.h" compile="0" resource="0"
+              file="Source/signalGenerator.h"/>
+      </GROUP>
+      <FILE id="dBTwYc" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="BjqEdm" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017" windowsTargetPlatformVersion="10.0.16299.0">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="0" isDebug="1" optimisation="1" targetName="Syntezator"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="1" isDebug="0" optimisation="3" targetName="Syntezator"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Programy/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../Programy/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
